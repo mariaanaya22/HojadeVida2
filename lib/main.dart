@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hojadevida_1/screens/Inicio.dart';
+import 'package:flutter_hojadevida_1/screens/Menu.dart';
 
 void main(){
   runApp(portafolio());
@@ -10,10 +10,8 @@ class portafolio extends  StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'curriculum vitae',
-      theme: ThemeData(
-        primarySwatch: Colors.pink
-      ),
-      home: Inicio(),
+     
+      home: Menu(),
     );
   }
 }
